@@ -16,7 +16,7 @@ public abstract class Pokemon {
     /**
     * numero de pokedex 
     */
-    private String numPokedex;
+    private float numPokedex;
     
     /**
     * nombre del pokemon
