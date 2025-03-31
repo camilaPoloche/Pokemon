@@ -28,7 +28,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarPlacaje() {
-        return "Soy Charmander y ataco con Placaje";
+        return "Soy Balbasaur y ataco con Placaje";
     }
 
     /**
@@ -37,7 +37,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarArañazo() {
-        return "Soy Charmander y ataco con Arañazo";
+        return "Soy Balbasaur y ataco con Arañazo";
     }
     
     /**
@@ -46,7 +46,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarMordisco() {
-        return "Soy Charmander y ataco con Mordisco";
+        return "Soy Balbasaur y ataco con Mordisco";
     }
 
     /**
@@ -55,7 +55,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarParalizar() {
-        return "Soy Charmander y ataco con Paralizar";
+        return "Soy Balbasaur y ataco con Paralizar";
     }
 
     /**
@@ -64,7 +64,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarDrenaje() {
-        return "Soy Charmander y ataco con Drenaje";
+        return "Soy Balbasaur y ataco con Drenaje";
     }
 
     /**
@@ -73,7 +73,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarHojaAfilada() {
-        return "Soy Charmander y ataco con HojaAfilada";
+        return "Soy Balbasaur y ataco con HojaAfilada";
     }
     
     /**
@@ -82,6 +82,6 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     */
     @Override
     public String atacarLatigoCepa() {
-        return "Soy Charmander y ataco con LatigoCepa";
+        return "Soy Balbasaur y ataco con LatigoCepa";
     }
 }
