@@ -16,7 +16,7 @@ public abstract class Pokemon {
     /**
     * numero de pokedex 
     */
-    private float numPokedex;
+    private String numPokedex;
     
     /**
     * nombre del pokemon
@@ -62,7 +62,7 @@ public abstract class Pokemon {
      * @param numPokedex
     */    
     public void setNumPokedex(String numPokedex) {
-        this.numPokedex = numPokedex;
+       this.numPokedex = numPokedex;
     }
 
     /**

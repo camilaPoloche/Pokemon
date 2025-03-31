@@ -84,6 +84,5 @@ public class Squirtle extends Pokemon implements PokemonAgua {
     @Override
     public String atacarHidroPulso() {
           return "soy squirtle y estoy atacando con hidropulso";
-    }
-    
+    } 
 }
