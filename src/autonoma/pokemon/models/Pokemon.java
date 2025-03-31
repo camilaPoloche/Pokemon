@@ -133,7 +133,4 @@ public abstract class Pokemon {
     */
     
     public abstract String atacarMordisco();
-    
-    
-    
 }
