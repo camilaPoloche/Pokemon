@@ -4,31 +4,31 @@
  */
 package autonoma.pokemon.models;
 /**
- * Modelo que representa un Pokemon que hereda de Pokemon e implementa PokemonAgua
- * @author Mariana
+ * Modelo que representa un Pokemon que hereda de Pokemon e implementa PokemonPlanta
+ * @author Camila
  * @since 20250331
  * @version 1.0
  */
-public class Squirtle extends Pokemon implements PokemonAgua {
+public class Bulbasaur extends Pokemon implements PokemonPlanta{
     /**
-     * Inicializa los atributos de la clase Squirtle
+     * Inicializa los atributos de la clase Bulbasaur
      *
      * @param     nombre    
      * @param     numPokedex
      * @param     peso
      * @param     temporada
     */
-    public Squirtle(String numPokedex, String nombre, float peso, String temporada) {
+    public Bulbasaur(String numPokedex, String nombre, float peso, String temporada) {
         super(numPokedex, nombre, peso, temporada);
     }
-    
+
     /**
      * Metodo abstracto atacarPlacaje
      * @return String
     */
     @Override
     public String atacarPlacaje() {
-       return "soy squirtle y estoy atacando con placaje";
+        return "Soy Charmander y ataco con Placaje";
     }
 
     /**
@@ -37,53 +37,51 @@ public class Squirtle extends Pokemon implements PokemonAgua {
     */
     @Override
     public String atacarArañazo() {
-       return "soy squirtle y estoy atacando con arañazo";
-        
+        return "Soy Charmander y ataco con Arañazo";
     }
-
+    
     /**
      * Metodo abstracto atacarMordisco
      * @return String
     */
     @Override
     public String atacarMordisco() {
-        return "soy squirtle y estoy atacando con mordisco";
+        return "Soy Charmander y ataco con Mordisco";
     }
 
     /**
-     * Metodo abstracto atacarHidroBomba
+     * Metodo abstracto atacarParalizar
      * @return String
     */
     @Override
-    public String atacarHidroBommba() {
-        return "soy squirtle y estoy atacando con hidrobomba";
+    public String atacarParalizar() {
+        return "Soy Charmander y ataco con Paralizar";
     }
 
     /**
-     * Metodo abstracto atacarPistolaAgua
+     * Metodo abstracto atacarDrenaje
      * @return String
     */
     @Override
-    public String atacarPistolaAgua() {
-        return "soy squirtle y estoy atacando con pistola de agua";
+    public String atacarDrenaje() {
+        return "Soy Charmander y ataco con Drenaje";
     }
 
     /**
-     * Metodo abstracto atacarBurbuja
+     * Metodo abstracto atacarHojaAfilada
      * @return String
     */
     @Override
-    public String atacarBurbuja() {
-        return "soy squirtle y estoy atacando con burbuja";
-    }
-
-    /**
-     * Metodo abstracto atacarHidroPulso
-     * @return String
-    */
-    @Override
-    public String atacarHidroPulso() {
-          return "soy squirtle y estoy atacando con hidropulso";
+    public String atacarHojaAfilada() {
+        return "Soy Charmander y ataco con HojaAfilada";
     }
     
+    /**
+     * Metodo abstracto atacarLatigoCepa
+     * @return String
+    */
+    @Override
+    public String atacarLatigoCepa() {
+        return "Soy Charmander y ataco con LatigoCepa";
+    }
 }
