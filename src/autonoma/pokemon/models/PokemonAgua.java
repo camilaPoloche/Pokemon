@@ -11,8 +11,6 @@ package autonoma.pokemon.models;
  * @version 1.0
  */
 public interface PokemonAgua {
-    
-    
     /**
      * Modela el metodo de atacar hidrobomba
      * @return String 
