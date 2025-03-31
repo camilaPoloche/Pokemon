@@ -59,7 +59,4 @@ public abstract class Pokemon {
     public abstract String atacarArañazo();
     
     public abstract String atacarMordisco();
-    
-    
-    
 }
